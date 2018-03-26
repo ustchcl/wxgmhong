@@ -1,0 +1,5 @@
+{
+    "name": "sudoku",
+    "version": "5.1.7",
+    "typings": "typings/sudoku.d.ts"
+}
