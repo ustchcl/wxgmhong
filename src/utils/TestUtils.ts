@@ -35,4 +35,8 @@ module TestUtils {
         console.log(printboard(solution));
         console.log('RATING:', difficulty);
     }
+
+    export function generatorSudokus() {
+
+    }
 }

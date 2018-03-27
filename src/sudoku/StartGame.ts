@@ -1,6 +1,7 @@
 module hong {
     export class StartGame {
         private static _instance: StartGame = null;
+        public sudokuPanel: SudokuMainPanel;
 
         public static getInstance(): StartGame {
             if (!this._instance) {
@@ -14,8 +15,8 @@ module hong {
         }
 
         public run() {
-            let sudokuPanel = new SudokuMainPanel();
-            CommonUtils.getStage().addChild(sudokuPanel);
+            this.sudokuPanel = new SudokuMainPanel();
+            CommonUtils.getStage().addChild(this.sudokuPanel);
         }
     }
 }
