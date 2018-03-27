@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outFile": "bin/sudoku.js",
+        "allowJs": true
+    },
+    "files": [
+        "src/underscore.js",
+        "src/sudoku.js"
+    ]
+}
