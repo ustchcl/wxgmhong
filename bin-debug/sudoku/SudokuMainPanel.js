@@ -33,7 +33,8 @@ var hong;
             button.x = 300;
             button.y = 900;
             this.addChild(button);
-            button.addEventListener(egret.TouchEvent.TOUCH_TAP, this.showSudoku, this);
+            button.touchEnabled = true;
+            button.addEventListener(egret.TouchEvent.TOUCH_BEGIN, this.showSudoku, this);
         };
         SudokuMainPanel.prototype.showSudoku = function () {
             var puzzle = sudoku.makepuzzle();

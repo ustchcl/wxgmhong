@@ -1,29 +1,29 @@
 {
-  "engineVersion": "5.1.7",
-  "compilerVersion": "5.1.7",
-  "template": {},
-  "target": {
-    "current": "web"
-  },
-  "modules": [
-    {
-      "name": "sudoku",
-      "path": "third_part/sudoku"
-    },
-    {
-      "name": "egret"
-    },
-    {
-      "name": "game"
-    },
-    {
-      "name": "tween"
-    },
-    {
-      "name": "assetsmanager"
-    },
-    {
-      "name": "promise"
-    }
-  ]
+	"engineVersion": "5.1.8",
+	"compilerVersion": "5.1.8",
+	"template": {},
+	"target": {
+		"current": "web"
+	},
+	"modules": [
+		{
+			"name": "sudoku",
+			"path": "third_part/sudoku"
+		},
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "assetsmanager"
+		},
+		{
+			"name": "promise"
+		}
+	]
 }
