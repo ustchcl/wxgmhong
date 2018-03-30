@@ -21,8 +21,8 @@ module hong {
             for (let i = 0; i < 9; ++i) {
                 for (let j = 0; j < 9; ++j) {
                     let numberBlock = new SudokuNumberBlock();
-                    numberBlock.x = i * 60 + 1;
-                    numberBlock.y = j * 60 + 1;
+                    numberBlock.x = i * 62 + 2;
+                    numberBlock.y = j * 62 + 2;
                     this.addChild(numberBlock);
                     this.blocks[i].push(numberBlock);
                 }

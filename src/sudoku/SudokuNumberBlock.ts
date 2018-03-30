@@ -10,15 +10,16 @@ module hong {
         }
 
         public createChildren() {
-            let bgBitmap = new egret.Bitmap(RES.getRes("number_bg_png"));
-            bgBitmap.x = 0;
-            bgBitmap.y = 0;
-            this.addChild(bgBitmap);
+            // let bgBitmap = new egret.Bitmap(RES.getRes("number_bg_png"));
+            // bgBitmap.x = 0;
+            // bgBitmap.y = 0;
+            // this.addChild(bgBitmap);
 
             this.label = new egret.TextField();
             this.label.text = "1";
             this.label.x = 20;
             this.label.y = 15;
+            this.label.textColor = 0x000000;
             this.label.verticalAlign = "center";
             this.addChild(this.label);
         }
